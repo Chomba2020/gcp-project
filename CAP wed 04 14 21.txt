@@ -1,0 +1,232 @@
+interview question 
+===================================
+define the difference between security and complians 
+security -- measures you put in place to protect your system .. ie tools, technology.
+compliance -- frameworks or guidelines you follow such as nist, iso -27001, feddramp
+
+
+
+
+what are controls ?
+================================
+
+They are countermeasures ;
+ 
+The federal gov uses nIST 800-53 rev4 | rev5 ==> this is guide where controls are located.
+There are 18 controls ==> out of the 18 we have technical, operational and management controls 
+
+There are 4 techinical controls 
+9 Operationals 
+Management conrols 
+
+the short form is called TOM495
+
+
+===========================================
+The 18 controls include ;
+
+AC, IA, SC , SI , IR , CM , CP, AU, PS, PE, PM, AT, PL, RA, MA, MP, SA, CA, 
+
+
+
+Interview queston 
+=====================
+which controls are more difficult 
+which controls have you worked with ?
+which controls have you implimented
+
+
++================================
+select  controls to talk about 
+tech controls ac, ia
+2 management = planning, AS
+4 operational controls ps, ma, ir, 
+
+========================================================================
+
+Under the above controls we have sub families for e,g AC has about 25 sub family controls 
+check Talatek app 
+
+
+
+account management 
+==============================
+roles and groups and grant and revoked as necessary 
+ac 6 
+ac 8 
+reminds you the last time  tou logged in to make sure no one else logged
+ac 11 session log.. terminate inactive sessions 
+
+awareness an training -- you must train people to be aware ( things like phishing 
+
+============================================================
+
+rule based training -- train users accordinig to their job functions 
+keep reccords to show that you are in compliance 
+
+audit and accountability
+====================================
+e.g splunk minitors logs to see what all user activity 
+logs record all activity and inforamtion 
+all system should be audited so avoid suspicious access
+The logs must all have timestamps 
+
+configuration management 
+===========================
+baseline configuration to harden to secure system 
+change mamagement -- all changes approved 
+
+identiy impact for changes made 
+
+restrict access to changes ie users cant just download 
+
+least functionality -- ie only have the functions they need for their jobs e,g restriction downloads 
+
+emergency 
+================================
+cp -4 
+cp -7 alternate site locations just incase one goes done
+cp -8 have muiltple telecomm services 
+cp -9 inforation sstem backup --- 
+
+
+identifiaction and authentication 
+================================
+IA-7 
+
+incident response 
+=======================
+an incident is a malicious event
+know how to managemnt 
+
+
+maintenance 
+==============================
+frequent checks of servers , network , hvac etc and keep doc to show 
+
+media protection
+=================================
+hard drives 
+when hard drives are full how long do you keep them for, how do yo store them, how to do sanitize them( getting rid or destryouii)
+
+physcial access and env protection
+=========================
+physcial access contorol-- security gaurds , logs , cameras, 
+access to output devices - printters, monitor
+monitor visitor access -- ID verification ( scan and badge handed ). Log out visitor and keep record 
+
+
+pe -11 emergency power --- backup generator
+pe -13 fire sprinklers 
+pe -14 temp and humidity controls
+pe -15 - water damage and protection-- server rooms have raised floors to prevent flood damage
+
+pe -16 delivery
+
+
+personal security 
+===============================
+ps -3 personal screening
+ps-4 personal termination 
+
+
+SC
+==============================
+sc -7 boundary protecttion -- firewall
+
+
+SI 
+===========================
+flaw remediaton -- fixing malwares 
+
+
+REMediation 
+==========================================
+It sis a strategy or plan to fix or mitigate a vulnerability 
+
+Mitigation 
+=====================================
+Is an action to fix a vulnerability 
+
+if ou find a weakness you have to come up with a remediation plan to mitigate the vulnerability .
+
+Icident 
+========================================
+this is any adverse effect that took plac eon your system or technology 
+
+Check week one notes ****
+
+
+There are different types of control 
+=========================================================================
+
+1) deterrent control -- used to discourage a potential attacker cameras,alarm systems, motion detectors  honeypot( fake system ie decoy system acreated by agency , to see how hackers can break it . they then use this info the harden the actual system ), 
+
+2) preventive controls prevent incident from occuring such as intrusion prevention systems  ie firewalls( first defence line to prevent an attachk ) , anti virus (against malware )
+3) corrective control e.g patches correct bugs, training , harden the system, 
+
+4) recovery controls -- backups that can be used to recover, contigency planning, DR
+
+5)  detective controls -- intrusion detection systems(IDS) , splunk , Log review ( usning splunk), alarm system 
+
+6) compensative controls -- ultimate controls that are used to reduce the risk of another control not in place ..e,g security guards, alarm,cameras, fence, motion detector thus if one fails the other compensates 
+
+
+
+
+Meaning and Types of security 
+our job is to preotect info systems...
+
+Interview question
+=======================================================
+
+what type of systm hacve you supported as an analyst, ISSO and an assessor?
+
+ have uspported systems like applications such as:
+oracle financial,
+pple soft, 
+scout, 
+workday, 
+identity and assess management systems(IAM), 
+cloud systems(aws, azure, google), infra or GSS( general support systems)
+office 365 systems (SAAS),sharepoint,
+asset management systems 
+payroll systems such as ADP
+Internal health systems 
+Benefits system- insurance 
+401k systems 
+
+CIO, CISO --chied info sec officcer
+DC --dicrotor of complaince 
+SO --system owner 
+ISSM -- info system manager 
+ISSO --info sec officer 
+IA-- info assurance/cyber analyst 
+SC -- security assessor
+SOC- sec operations analyst ( monitor network traffic 24/7 .. IDS/IPS/firewall(  pen tester,vul analyst,splunk)
+AO-- authorization official --- grants access to operate
+
+
+CA and A&A
+
+A&A asseement and auth is same as risk management framework.(RMF)
+The guideline for A&A is Nist 800-37 rev 2
+act is called FISMA( fed info sec modernation act) This is a legislature that has been passed in law and signed by the president 
+passed as a law passed by gov 
+
+The used dept of commerce --making it responsible to enforced this act 
+Dept of commerce created NIST( national insti of )nist dev guide to help all agencies efforce guide  and FIP
+
+Nist created special  guideline 800-37 to enforce the RMF which says every system and agency being built must to thru the RMF system and authorized by someone the (AO)which then provides an ATO( authorization to operate)
+
+
+A&A has six steps the new one has 7steps 
+
+if working for the gov you have to do the 7 steps 
+analyst does all 6 steps 
+assessor does 7 steps 
+
+
+
+
+why chnage ? cus of lack of reburst and continous monitoring 
